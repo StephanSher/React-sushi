@@ -1,0 +1,62 @@
+.shop-card {
+  position: absolute;
+  top: 80px;
+  left: 110px;
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  color: black;
+  z-index: 1000;
+  -webkit-box-shadow: 7px 21px 13px 20px #383838;
+  box-shadow: 7px 21px 13px 20px #383838;
+  border-radius: 25px;
+  overflow: auto;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 160px;
+  border-radius: 25px;
+}
+.shop-card-h1 {
+  text-align: center;
+  background-color: white;
+  border-radius: 25px;
+  width: 80%;
+  margin: 70px auto;
+}
+.shop-card-footer {
+  align-items: center;
+  background-color: white;
+  margin: 150px auto 10px auto;
+  border-radius: 25px;
+  width: 90%;
+}
+button {
+  margin-left: 100px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.h3 {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+li {
+  display: flex;
+  margin: 0 20px 20px 20px;
+  font-weight: bold;
+  justify-content: space-between;
+}
+.title {
+  width: 30px;
+}
+
+.b:hover,
+.b:active {
+  color: red;
+  transform: scale(1.7);
+  cursor: pointer;
+}

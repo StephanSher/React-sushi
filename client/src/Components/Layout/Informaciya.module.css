@@ -1,0 +1,27 @@
+.informaciya{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    padding: 50px 100px 50px 0;
+    margin-right: 20px;
+    -webkit-box-shadow: 9px 7px 11px 10px rgba(0,0,0,0.61);
+    border-radius: 25px;
+
+}
+a {
+    color:black;
+    text-decoration:none;
+    z-index: 100;
+
+}
+
+
+
+.line{
+    border: none;
+    background-color: #817d7d;
+    color: #817d7d;
+    height: 2px;
+    width: 100%;
+}

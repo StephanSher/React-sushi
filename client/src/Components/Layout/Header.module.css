@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  height: 5rem;
+  background-color: #ffffff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  z-index: 10;
+}
+.logo{
+  display: flex;
+  width: 200px;
+  height: 100px;
+  align-items: center;
+}
+.location{
+  display: flex;
+  align-items: center;
+}
+.svgLocation{
+  cursor: pointer;
+  background-color: #ffffff;
+  margin:0;
+  padding: 0;
+  width: 20px;
+  color:black;
+}
+.delivery{
+  display: flex;
+  align-items: center;
+}
+.svgDelevery{
+  cursor: auto;
+  background-color: #ffffff;
+  margin:0;
+  padding: 0;
+  width: 20px;
+  color:black;
+}
+.telephone{
+  display: flex;
+  align-items: center;
+}
+.svgTelephone{
+  cursor: auto;
+  background-color: #ffffff;
+  margin:0;
+  padding: 0 5px;
+  width: 20px;
+  color:black;
+}
+
+svg {
+  cursor: pointer;
+  background-color: #ffffff;
+  color: black;
+  padding: 0.75rem 3rem;
+  border-radius: 25px;
+}
+
+.main-image {
+  width: 100%;
+  height: 32rem;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

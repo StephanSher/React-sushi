@@ -1,0 +1,59 @@
+
+.menu {
+  display: flex;
+  margin: 20px;
+  padding: 0;
+  width: 400px;
+  -webkit-box-shadow: 9px 7px 11px 10px rgba(0,0,0,0.61);
+  box-shadow: 9px 7px 11px 10px rgba(0,0,0,0.61);
+  box-sizing: border-box;
+  background-color: #ffffff;
+  border-radius: 25px;
+
+
+}
+.cardItem{
+  padding: 5px;
+}
+
+ h3 {
+  color:black;
+text-align: center;
+}
+
+.ingredients {
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-style: italic;
+  width: 350px;
+  color:black;
+  padding: 10px;
+
+}
+.cardFooter{
+  display: flex;
+  justify-content: space-around;
+}
+
+.price {
+  margin-top: 1rem;
+  font-weight: bold;
+  color: black;
+  font-size: 1.25rem;
+  color:black;
+
+}
+.illustration:hover,
+.illustration:active {
+  border-radius: 25px;
+  transform: scale(1.5);
+  transition: 1.5s;
+  opacity: 0.9;
+}
+img {
+  width: 100%;
+  height: 50%;
+}
+
+

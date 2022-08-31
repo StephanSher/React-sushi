@@ -1,0 +1,21 @@
+.addOrder {
+  text-align: right;
+}
+
+.addOrder button {
+
+  width: 100px;
+  height: 70px;
+  background: 0 0 no-repeat;
+
+  text-align: center;
+  line-height: 30px;
+  border-radius: 20px;
+}
+
+.addOrder button:hover,
+.addOrder button:active {
+  border-color: white;
+  background: no-repeat bottom;
+  color: black;
+}
